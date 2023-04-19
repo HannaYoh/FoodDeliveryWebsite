@@ -9,10 +9,12 @@ body{
 }
 
 
+/* mobile */
 .header{
     background-color: #c49762;
-    height: 60px;
-    padding-top: 20px;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -20,70 +22,214 @@ body{
     color: #fff;
 }
 
-.sections{
-    display: flex;
-}
-
-.left{
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
 .left img{
-    border-bottom-left-radius: 15%;
+  height: 110vh;
 }
 
 .right{
     background-color: #fff;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 100%;
-    border-bottom-right-radius: 15%;
-    padding: 30px 20px 10px 10px;
-    
+    position: absolute;
+    bottom:1px;
+    left: 30px; 
+    height: 90vh;
+    width: 90%;
+    padding: 10px 20px 10px 20px; 
 }
 
-.right h2{
+ .right h2{
     text-align: center;
 }
 
-.right .inputFields{
-    padding: 70px 20px 20px 20px;
+form{
+     position: absolute;
+    bottom: 15px;
+    left: 40px; 
+    margin-left: 30px;
+    
+}
+.inputs{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.right .inputFields .inputs{
-    width: 350px;
-    height: 100px;
+input{
+    width: 330px;
+    height: 35px;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    margin-bottom: 10px;
+    background-color: #bfbfbf;
     
-}
-
-
-.inputFields .inputs input{
-    height: 50px;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: #D9D9D9;
-    border-color: #D9D9D9;
-}
-
-.button{
-    text-align: center;
-    margin-top: 50px; 
 }
 
 .button input{
     background-color: #63AC2F;
     color: #fff;
+  
+} 
+
+
+/* tablet */
+@media(min-width: 768px){ 
+    .header{
+        background-color: #c49762;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .header h2{
+        color: #fff;
+    }
+
+    .left img{
+        width: 100%;
+      }
+
+    .right .inputFields{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .right h2{
+        padding-top: 10px;
+    }
+
+    form{
+        position: absolute;
+       bottom: 180px;
+       left: 5px; 
+       margin-left: 30px;
+       padding-right: 20px;
+   }
+
+   .inputs{
+    gap: 15px;
+   }
+
+   .inputs input{
+    height: 50px;
+    background-color: #bfbfbf;
+    outline: none;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+   .button{
+    position: absolute;
+    top: 430px;
+    left: 200px;
+   }
+
+   .button input{
+   width: 280px;
+    height: 60px;
     font-size: 20px;
     border-radius: 10px;
-    padding: 10px;
-    width: 280px;
-    height: 60px;
-    border-color: #63AC2F;
-    
+   }
 }
+
+
+
+/* desktop */
+@media(min-width: 968px){ 
+    .header{
+        background-color: #c49762;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .header h2{
+        color: #fff;
+    }
+    
+    .sections{
+        display: flex;
+    }
+    
+    .left{
+        margin-top: 10px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .left img{
+        border-bottom-left-radius: 15%;
+        height: 79%;
+        width: 38vw;
+       
+    }
+    
+    .right{
+        background-color: #fff;
+        margin-top: 10px;
+        position: absolute;
+        left: 40%;
+        width: 60%;
+        border-bottom-right-radius: 15%;
+        padding: 30px 20px 10px 20px;
+        
+    }
+    
+    .right h2{
+        text-align: center;
+    }
+    
+    .right .inputFields{
+        padding: 70px 50px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    form{
+        position: absolute;
+        top: 50px;
+    }
+    
+    .right .inputFields .inputs{
+        width: 350px;
+        height: 100px;
+        gap: 5px;
+        
+    }
+    
+    
+    .inputFields .inputs input{
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: #bfbfbf;
+        outline: none;
+        border: 1px solid #bfbfbf;
+        border-radius: 5px;
+    }
+    
+    .button{
+        text-align: center;
+        margin-top: 50px; 
+    }
+    
+    .button input{
+        background-color: #63AC2F;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 280px;
+        height: 60px;
+        border-color: #63AC2F;
+        position: absolute;
+        left: 90px;
+        top: 30px;
+        
+    }
+    }
+     
