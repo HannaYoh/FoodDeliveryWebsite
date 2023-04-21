@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TimeRomans";
+}
+.header {
+  background-color: #c49762;
+  height: 15px;
+  padding: 30px;
+}
+.header .logo {
+  color: white;
+  font-weight: 900;
+  font-size: 33px;
+  font-style: italic;
+  text-transform: capitalize;
+  padding-left: 100px;
+}
+.header .dash {
+    display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dash ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  height: 5%;
+  left: 900px;
+  font-size: 20px;
+}
+.dash ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-variant: small-caps;
+}
+.dash ul li a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.subDiv .search{
+    position: relative;
+    margin-top: 0;
+}
+
+.search {
+  display: flex;
+  height: 45vh;
+  margin-top: 10%;
+  padding-left: 80px;
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 30px;
+}
+.search input {
+  display: flex;
+  height: 3px;
+  width: 400px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.search button {
+  height: 1px;
+  background-color: rgb(85, 179, 85);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 30px;
+  margin-top: 105px;
+  font-family: "TimeRomans";
+  font-weight: bold;
+  font-size: large;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 0 10px gray;
+}
+
+.subDiv .img{
+    float: right;
+    height: 120px;
+    border-radius: 100px;
+    margin: 35px;
+    margin-top: 15px;
+
+}
+
+ 
+.img p {
+    color: white;
+    font-size: x-large;
+    margin-top: 15px;
+    font-family: "Algerian";
+}
+
+.subDiv .sneekpeeks{
+    position: relative;
+    margin-top: 30px;
+}
+
+ .sneekpeeks {
+  height: 50vh;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.sneekpeeks .images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
