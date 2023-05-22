@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #121111;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: #a52b2a;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.wrapper{
+    display: grid;    
+}
+
+.wrapper .main{
+    background-color:white;
+    display: inline-block;
+    padding: 12vh;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    top: 20%;
+    border-radius: 3%;
+}
+
+.wrapper .main .back .btnBack img{
+    height: 18px;
+    width: 20px;
+}
+
+.wrapper .main .welcome{
+    text-align: center;
+    padding-top: 1.5vh;
+    padding-bottom: 3vh;
+}
+
+.wrapper .main .inputsEmail{
+    padding-bottom: 5%;
+}
+
+.wrapper .main .inputsEmail input{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.wrapper .main .forgotPassword{
+    text-align: right;
+    font-size: smaller;
+    font-style: italic;
+    padding: 3%;
+}
+
+.wrapper .main .inputsPassword input{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.wrapper .main .login{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.wrapper .main .login .btnLogin{
+    background-color: #63AC2F;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-color: #63AC2F;
+    position: relative;
+}
+
+.wrapper .main .newAccount{
+    text-align: center;
+}
+
+.wrapper .main .newAccount a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
