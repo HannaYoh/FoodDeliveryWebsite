@@ -1,0 +1,213 @@
+.top
+{
+    background-color: #a52a2a;
+    border-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 55px;
+    
+}
+.leftsec
+{
+    display: flex;
+    flex: 1;
+}
+.rightsec
+{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    flex: 1;
+}
+.about
+{
+  background-color: #a52a2a;
+  color: white;
+  border: none;
+  
+}
+.menu
+{
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+}
+.restaur
+{
+    background-color: #a52a2a;
+        color: white;
+        border: none;
+}
+.orderli
+{
+    background-color: #a52a2a;
+        color: white;
+        border: none;
+}
+.main
+{
+    background-color: bisque;
+    display: flex;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex-direction:row;
+}
+.im1
+{
+    width: 99px;
+    border-radius: 67px;
+    
+    
+    
+}
+.image
+{
+    
+    flex:1;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    
+    
+    
+    
+}
+.persinfo
+{   
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.history
+{
+    background-color: lightgray;
+    flex: 1;
+}
+
+.imagedesc
+{
+    flex: 3;
+    background-color: whitesmoke;
+    
+}
+.f1
+{
+    margin-top: 5px;
+}
+.fo 
+{
+    margin-top: 12px;
+}
+.psec
+{
+    text-align: center;
+    margin-top: -15px;
+}
+.button
+{
+    background-color: green;
+}
+.history
+{
+    display: grid;
+    grid-template-rows: 1fr,1fr;
+}
+.order
+{
+ background-color: aliceblue;
+ max-height: 500px;
+
+ 
+}
+.orderhistory
+{
+    max-height: 400px;
+    background-color: beige;
+}
+body
+{
+    height: 700px;
+}
+.manage
+{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.cookies
+{
+    margin-left: 15px;
+}
+.help
+{
+    margin-left: 15px;
+}
+input
+{
+width: 600px;
+}
+.fo
+{
+    margin-left: 17px;
+}
+.links
+{
+    margin-top: 10px;
+}
+.btnclass
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.button
+{
+border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+    background-color: rgb(10, 145, 80);
+        border-radius: 20px;
+        color: white;
+    
+        font-size: 20px;
+        border-color: rgb(23, 171, 104);
+        border-style: solid;
+        font-size: bold;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: background-color 1s, color 1s;
+        transition: box-shadow 0.8s;
+        align-items: flex-start;
+        padding: 7PX 16PX;
+}
+.button:hover {
+    background-color: white;
+    color: green;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+ button.subs:hover {
+     background-color: green;
+
+ }
+
+ button.subs:active {
+     opacity: 0.1;
+
+ }
+ .clsim
+ {
+    width: 70px;
+        vertical-align: top;
+ }
+ .im2
+ {
+    width: 55px;
+        border-radius: 35px;
+ }
