@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #a52b2a;
+}
+
+.container{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 480px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.inputFields{
+    position: absolute;
+    top: 150px;
+    padding-left: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+input{
+    height: 45px;
+    width: 400px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+
+p{
+    font-size: 15px;
+    text-align: right;
+   color: blue;
+   position: relative;
+   bottom: 50px;
+   text-decoration: underline;
+}
+
+#lblBack{
+    display: none;
+}
+
+#login{
+    height: 50px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    background-color: #63ac2f;
+    color: #fff;
+    position: relative;
+    left: 20%;
+}
+#loginBackup{
+    height: 50px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    background-color: #63ac2f;
+    color: #fff;
+    position: relative;
+    left: 20%;
+    display: none;
+}
