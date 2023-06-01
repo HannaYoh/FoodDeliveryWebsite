@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +16,7 @@
             <div class="logo">Mesob Delivery</div>
             <div class="dash">
               <ul>
-                <li><a href="loginPage.html" target="_self">Login</a></li>
+                <li><a href="loginPage.php" target="_self">Login</a></li>
                 <li><a href="createAcc.php" target="_self">Create Account</a></li>
               </ul>
             </div>

@@ -3,7 +3,7 @@ body {
   margin: 0;
   background-color: #28282b;
   box-sizing: border-box;
-  font-family: "TimeRomans";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header {
   background-color: #a52b2a;
