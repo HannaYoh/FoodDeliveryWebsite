@@ -1,15 +1,7 @@
 .top
 {
     background-color: #a52a2a;
-    border-color: black;
-    flex-direction: row;
-    justify-content: space-between;
-    display: flex;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 55px;
+    
     
 }
 /* tablet */
@@ -18,6 +10,11 @@
 
     .top {
         background-color: #a52a2a;
+    }
+    .main
+    {
+        display: flex;
+        flex-direction: column;
     }
 
 }
