@@ -1,172 +1,126 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "TimeRomans";
-}
+
 .header {
     background-color: #a52b2a;
-    height: 15px;
-    padding: 30px;
+    height: 0;
+    padding: 5vw;      
 }
-.header .dash {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.dash ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    position: absolute;
-    top: 5px;
-    width: 100%;
-    height: 5%;
-    left: 750px;
-    font-size: 20px;
-}
-.dash ul li a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-variant: small-caps;
-}
-.dash ul li a:hover {
-    color: lightblue;
-    text-decoration: underline;
-}
-.main{}
-.one, .two, .three {
-    height: 25vh;
+
+.dropdown {
     position: relative;
-    background-color: rgb(217, 228, 238);
-}
-*/
-
-
-
-/* body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.header {
-    background-color: #a52b2a;
-    height: 15px;
-    padding: 30px;
-}
-.header .dash{
-    display: none;
-}
-.header .show{
-    padding-left: 75vw;
+    display: inline-block;
 } 
-.header .show:hover + .dash{
+
+.dropdown .btndropdown{
+    background-color: #a52b2a;
+    color: white;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+}
+
+.listdropdown{
+    display: none;
+    position: absolute;
+    background-color: #a52b2a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.listdropdown ul li{
+    list-style: none;
+}
+
+.listdropdown ul li a{
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.listdropdown ul li a:hover{ background-color:#691b1b;}
+
+.dropdown:hover .btndropdown{background-color: #691b1b;}
+
+.dropdown:hover .listdropdown{
     display: block;
 }
 
 .one, .two, .three {
-    height: 25vh;
+    margin-top: 2vh;
+    height: 30vh;
     position: relative;
     background-color: rgb(217, 228, 238); 
 }
-*/
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
+p {
+    padding-top: 3vh;
+    margin-left: 3vw;
+    display: inline-block;
 }
 
-.wrapper{
-    height: 10vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
-
-.wrapper .header{
-    background-color: #a52b2a;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header .dash{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-}
-
-.dash .show .btnShow{
-    background-color: transparent;
-    border: 0;
-    color: #fff;
-    font-size: 17px;
-    font-weight: 900;
-}
-
-
-@media(min-width: 968px){
-    body {
+@media(min-width: 786px){
+    *{
         padding: 0;
         margin: 0;
+    }
+    body{
         box-sizing: border-box;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
     }
     .header {
         background-color: #a52b2a;
         height: 0;
-        padding: 5vw;
+        padding: 5vw;      
     }
-    .header .show{
+    .header .dropdown .btndropdown{
         display: none;
     }
-    .header .dash {
+
+    .header .dropdown .listdropdown{
         display: flex;
         flex-grow: 1;
         flex-direction: column;
         align-items: flex-start;
+        display: block;
     }
-    .dash ul {
+    .dropdown .listdropdown ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 5vw;
         position: relative;
-        top: 1vh;
-        height: 5vh;
-        left: 50vw;
+        left: 40vw;
         font-size: 20px;
     }
-    .dash ul li a {
+    .dropdown .listdropdown ul li a {
         color: white;
         text-decoration: none;
         text-transform: uppercase;
         font-variant: small-caps;
     }
-    .dash ul li a:hover {
+    .dropdown .listdropdown ul li a:hover {
         color: lightblue;
         text-decoration: underline;
     }
-    /* .main{
-        
-    } */
+   
     .one, .two, .three {
-        height: 25vh;
+        margin-top: 2vh;
+        padding-left: 3vw;
+        padding-top: 2vw;
+        height: 30vh;
         position: relative;
         background-color: rgb(217, 228, 238); 
     }
