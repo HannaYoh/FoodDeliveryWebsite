@@ -12,6 +12,34 @@
     height: 55px;
     
 }
+/* tablet */
+@media(min-width: 768px) 
+{
+
+    .top {
+        background-color: #a52a2a;
+    }
+
+}
+
+
+/* desktop */
+@media(min-width: 968px)
+ {
+    .top 
+    {
+        background-color: #a52a2a;
+        border-color: black;
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 55px;
+    }
+}
 .leftsec
 {
     display: flex;
@@ -119,20 +147,16 @@
 .history
 {
     display: grid;
-    grid-template-rows: 1fr,1fr;
+    /*grid-template-rows: 1fr,1fr;*/
 }
 .order
 {
  background-color: aliceblue;
- max-height: 500px;
+ /*max-height: 500px;*/
 
  
 }
-.orderhistory
-{
-    max-height: 400px;
-    background-color: beige;
-}
+
 body
 {
     height: 700px;
